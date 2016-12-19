@@ -16,7 +16,7 @@ namespace SpecsFor.Configuration
 			return;
 		}
 
-		[SetUp]
+		[OneTimeSetUp]
 		public virtual void ApplyConfiguration()
 		{
 			BeforeConfigurationApplied();

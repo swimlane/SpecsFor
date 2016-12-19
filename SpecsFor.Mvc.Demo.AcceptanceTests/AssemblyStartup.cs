@@ -8,7 +8,7 @@ namespace SpecsFor.Mvc.Demo.AcceptanceTests
 	{
 		private SpecsForIntegrationHost _host;
 
-		[SetUp]
+		[OneTimeSetUp]
 		public void SetupTestRun()
 		{
 			var config = new SpecsForMvcConfig();
