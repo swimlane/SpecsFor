@@ -34,7 +34,7 @@ namespace SpecsFor.Configuration
 			return;
 		}
 
-		[TearDown]
+		[OneTimeTearDown]
 		public virtual void RemoveConfiguration()
 		{
 			BeforeConfigurationRemoved();

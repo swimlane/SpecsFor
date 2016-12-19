@@ -40,7 +40,7 @@ namespace SpecsFor.Mvc.Demo.AcceptanceTests
 			_host.Start();
 		}
 
-		[TearDown]
+		[OneTimeTearDown]
 		public void TearDownTestRun() 
 		{
 			_host.Shutdown();
